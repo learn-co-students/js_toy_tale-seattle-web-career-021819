@@ -58,7 +58,7 @@ function addLike(toy) {
       'Accept': 'application/json'
     },
     body: JSON.stringify({
-      "likes": toy.likes + 1
+      "likes": toy.likes += 1
     })
   })
     .then(res => res.json())
@@ -68,8 +68,7 @@ function addLike(toy) {
 
 function renderNewLikes(toy) {
   p = document.getElementById(toy.id)
-  console.log(toy.likes)
-  p.textContent = toy.likes + ' Likes'
+  p.innerText = toy.likes + ' Likes'
 }
 
 function createToy(toy) {
@@ -83,7 +82,7 @@ function createToy(toy) {
   img.src = toy.image
   p = document.createElement('h2')
   p.setAttribute('id', toy.id)
-  p.textContent = toy.likes + ' Likes'
+  p.innerText = toy.likes + ' Likes'
   button = document.createElement('button')
   button.classList.add('like-btn')
   button.textContent = 'Like <3'
