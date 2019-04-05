@@ -48,6 +48,7 @@ function createToy(name, image) {
 
 
 function likeToy(toy) {
+  let updateLikes = toy.likes++
   fetch(URL + 'toys' + '/' + toy.id, {
     method: "PATCH",
     headers: {
@@ -55,13 +56,13 @@ function likeToy(toy) {
       "Accept": "application/json"
     },
     body: JSON.stringify({
-      "likes": toy.likes += 1
+      "likes": updateLikes
     })
   })
     .then(res => res.json())
-    .then(toy => {
+    .then(data => {
       const p = document.getElementById('likes' + toy.id)
-      p.textContent = toy.likes + ' likes'
+      p.textContent = data.likes + ' likes'
     })
 }
 
