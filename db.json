@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": "18"
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": "12"
     },
     {
       "id": 3,
@@ -46,7 +46,109 @@
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "likes": "2"
+    },
+    {
+      "name": "[object HTMLInputElement]",
+      "image": "[object HTMLInputElement]",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "[object HTMLInputElement]",
+      "image": "[object HTMLInputElement]",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "[object HTMLInputElement]",
+      "image": "[object HTMLInputElement]",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "name": "[object HTMLInputElement]",
+      "image": "[object HTMLInputElement]",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "name": "[object HTMLInputElement]",
+      "image": "[object HTMLInputElement]",
+      "likes": 0,
+      "id": 13
+    },
+    {
+      "name": "[object HTMLInputElement]",
+      "image": "[object HTMLInputElement]",
+      "likes": 0,
+      "id": 14
+    },
+    {
+      "name": "[object HTMLInputElement]",
+      "image": "[object HTMLInputElement]",
+      "likes": 0,
+      "id": 15
+    },
+    {
+      "name": "[object HTMLInputElement]",
+      "image": "[object HTMLInputElement]",
+      "likes": 0,
+      "id": 16
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": 0,
+      "id": 17
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": 0,
+      "id": 18
+    },
+    {
+      "name": "",
+      "image": "",
+      "likes": 0,
+      "id": 19
+    },
+    {
+      "name": "oh hai",
+      "image": "https://pics.me.me/o-hai-thar-oh-hai-25525591.png",
+      "likes": 0,
+      "id": 20
+    },
+    {
+      "name": "oh hai",
+      "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/6/6d/Golbez.jpg/revision/latest?cb=20120706153946",
+      "likes": 0,
+      "id": 21
+    },
+    {
+      "name": "oh hai",
+      "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/6/6d/Golbez.jpg/revision/latest?cb=20120706153946",
+      "likes": 0,
+      "id": 22
+    },
+    {
+      "name": "oh hai",
+      "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/6/6d/Golbez.jpg/revision/latest?cb=20120706153946",
+      "likes": 0,
+      "id": 23
+    },
+    {
+      "name": "oh hai dere",
+      "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/6/6d/Golbez.jpg/revision/latest?cb=20120706153946",
+      "likes": "4",
+      "id": 24
+    },
+    {
+      "name": "Golbez",
+      "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/6/6d/Golbez.jpg/revision/latest?cb=20120706153946",
+      "likes": "30",
+      "id": 25
     }
   ]
 }
