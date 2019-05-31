@@ -43,7 +43,6 @@ function createToy(toy) {
   button.classList.add('like-btn');
   button.textContent = "Like <3";
   button.addEventListener('click', () =>{
-    console.log("hello");
     likes = parseInt(likes) + 1;
     likeToy(id, likes);
   })
